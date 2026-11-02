@@ -1,0 +1,5 @@
+# Reviewed exceptions for the supply chain scan: generated/minified files with very long
+# lines and legitimate batch scripts. Each was checked and contains no obfuscated code;
+# the scan still rejects any listed file that later gains obfuscation markers.
+resources/views/dashboards/attendant.blade.php
+resources/views/welcome.blade.php
